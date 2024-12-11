@@ -16,6 +16,7 @@ public class TestController {
         HashMap<String, Object> resultMap = new HashMap<>();
         resultMap.put("result", "안녕하세요. 테스트입니다.");
 
+
         return new ResponseEntity<Map<String, Object>> (resultMap, HttpStatus.OK);
     }
 }
